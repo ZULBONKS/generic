@@ -1,25 +1,26 @@
 # generic
 A simple browser, made to customize everything, written mainly in Julia
 This is the plan: This is the plan: 
-├── README.md
-├── LICENSE
-├── Project.toml
-├── Manifest.toml
-├──
-├── src/
-│ ├── CustomBrowser.jl # Main module entry point
-│ ├── core/
-│ │ ├── Core.jl # Core browser functionality
-│ │ ├── Engine.jl # Web engine interface
-│ │ ├── NetworkManager.jl # HTTP/HTTPS handling
-│ │ ├── SecurityManager.jl # Security policies and sandboxing
-│ │ ├── CacheManager.jl # Caching system
-│ │ └── ConfigManager.jl # Configuration handling
-│ │
-│ ├── ui/
-│ │ ├── UI.jl # Main UI module
-│ │ ├── components/
-│ │ │ ├── AddressBar.jl # URL input and navigation
+
+###### `├── README.md 
+###### ├── LICENSE
+###### ├── Project.toml
+###### ├── Manifest.toml
+###### |
+###### ├── src/
+###### │ ├── CustomBrowser.jl # Main module entry point
+###### │ ├── core/
+###### │ ├── Core.jl # Core browser functionality
+###### │ ├── Engine.jl # Web engine interface
+###### │ ├── NetworkManager.jl # HTTP/HTTPS handling
+###### │ ├── SecurityManager.jl # Security policies and sandboxing
+###### │ │ ├── CacheManager.jl # Caching system
+###### │ │ └── ConfigManager.jl # Configuration handling
+###### │ │
+###### │ ├── ui/
+###### │ │ ├── UI.jl # Main UI module
+###### │ │ ├── components/
+###### │ │ │ ├── AddressBar.jl # URL input and navigation
 │ │ │ ├── TabManager.jl # Tab system
 │ │ │ ├── Toolbar.jl # Browser toolbar
 │ │ │ ├── StatusBar.jl # Status display
@@ -98,10 +99,6 @@ This is the plan: This is the plan:
 │ │ ├── fonts.toml # Typography settings
 │ │ └── assets/ # Theme assets (icons, images)
 │ └── community_themes/
-│ ├── material_design/
-│ ├── retro_browser/
-│ └── hacker_terminal/
-│
 ├── scripts/
 │ ├── build.jl # Build script
 │ ├── install.jl # Installation script
@@ -114,5 +111,4 @@ This is the plan: This is the plan:
 │ ├── core_tests.jl # Core functionality tests
 │ ├── ui_tests.jl # UI component tests
 │ ├── rendering_tests.jl # Rendering engine tests
-│ ├── security_tests.jl # Security feature tests
-│
+│ ├── security_tests.jl # Security feature tests`</p>
