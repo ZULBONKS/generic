@@ -1,6 +1,6 @@
 # generic
 A simple browser, made to customize everything, written mainly in Julia
-This is the plan: This is the plan: 
+<p>This is the great plan:</p>
 
 ###### ├── README.md 
 ###### ├── LICENSE
