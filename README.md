@@ -21,10 +21,10 @@ This is the plan: This is the plan:
 ###### │ │ ├── UI.jl # Main UI module
 ###### │ │ ├── components/
 ###### │ │ │ ├── AddressBar.jl # URL input and navigation
-│ │ │ ├── TabManager.jl # Tab system
-│ │ │ ├── Toolbar.jl # Browser toolbar
-│ │ │ ├── StatusBar.jl # Status display
-│ │ │ ├── Sidebar.jl # Bookmarks, history sidebar
+###### │ │ │ ├── TabManager.jl # Tab system
+###### │ │ │ ├── Toolbar.jl # Browser toolbar
+###### │ │ │ ├── StatusBar.jl # Status display
+###### │ │ │ ├── Sidebar.jl # Bookmarks, history sidebar
 │ │ │ ├── ContextMenus.jl # Right-click menus
 │ │ │ └── Dialogs.jl # Alert, confirm, prompt dialogs
 │ │ ├── themes/
@@ -94,21 +94,21 @@ This is the plan: This is the plan:
 ├── themes/
 │ ├── README.md # Theme creation guide
 │ ├── example_theme/
-│ │ ├── theme.toml # Theme configuration
-│ │ ├── colors.toml # Color scheme
-│ │ ├── fonts.toml # Typography settings
-│ │ └── assets/ # Theme assets (icons, images)
-│ └── community_themes/
-├── scripts/
-│ ├── build.jl # Build script
-│ ├── install.jl # Installation script
-│ ├── package.jl # Packaging script
-│ ├── dev_setup.jl # Development environment setup
-│ └── customization_wizard.jl # Interactive customization tool
-│
-├──test/
-│ ├── runtests.jl # Test runner
-│ ├── core_tests.jl # Core functionality tests
-│ ├── ui_tests.jl # UI component tests
-│ ├── rendering_tests.jl # Rendering engine tests
-│ ├── security_tests.jl # Security feature tests`</p>
+###### │ │ ├── theme.toml # Theme configuration
+###### │ │ ├── colors.toml # Color scheme
+###### │ │ ├── fonts.toml # Typography settings
+###### │ │ └── assets/ # Theme assets (icons, images)
+###### │ └── community_themes/
+###### ├── scripts/
+###### │ ├── build.jl # Build script
+###### │ ├── install.jl # Installation script
+###### │ ├── package.jl # Packaging script
+###### │ ├── dev_setup.jl # Development environment setup
+###### │ └── customization_wizard.jl # Interactive customization tool
+###### │
+###### ├──test/
+###### │ ├── runtests.jl # Test runner
+###### │ ├── core_tests.jl # Core functionality tests
+###### │ ├── ui_tests.jl # UI component tests
+###### │ ├── rendering_tests.jl # Rendering engine tests
+###### │ ├── security_tests.jl # Security feature tests
